@@ -1,4 +1,4 @@
-cmd install group.js const { GoatWrapper } = require("fca-liane-utils");
+const { GoatWrapper } = require("fca-liane-utils");
 const axios = require('axios'); 
 const request = require('request'); 
 const fs = require("fs"); 
