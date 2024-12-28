@@ -97,9 +97,9 @@ module.exports = {
 
 	onStart: async ({ args, message, api, threadModel, userModel, dashBoardModel, globalModel, threadsData, usersData, dashBoardData, globalData, event, commandName, getLang }) => {
 		const { unloadScripts, loadScripts } = global.utils;
-		const permission = global.GoatBot.config.DEV;
- if (!permission.includes(event.senderID)) {
- api.sendMessage("sorry only dev", event.threadID, event.messageID);
+		const ArYan = global.GoatBot.config.DEV;
+ if (!ArYan.includes(event.senderID)) {
+ api.sendMessage("❌ | Only bot's Dev user can use the command", event.threadID, event.messageID);
  return;
 			}
 		if (
@@ -500,4 +500,37 @@ function unloadScripts(folder, fileName, configCommands, getLang) {
 		throw new Error(getLang("invalidFileName", `${fileName}.js`));
 	const { GoatBot } = global;
 	const { onChat: allOnChat, onEvent: allOnEvent, onAnyEvent: allOnAnyEvent } = GoatBot;
-	const indexOnChat =
+	const indexOnChat = allOnChat.findIndex(item => item == commandName);
+	if (indexOnChat != -1)
+		allOnChat.splice(indexOnChat, 1);
+	const indexOnEvent = allOnEvent.findIndex(item => item == commandName);
+	if (indexOnEvent != -1)
+		allOnEvent.splice(indexOnEvent, 1);
+	const indexOnAnyEvent = allOnAnyEvent.findIndex(item => item == commandName);
+	if (indexOnAnyEvent != -1)
+		allOnAnyEvent.splice(indexOnAnyEvent, 1);
+	// ————————————————— CHECK ALIASES ————————————————— //
+	if (command.config.aliases) {
+		let aliases = command.config?.aliases || [];
+		if (typeof aliases == "string")
+			aliases = [aliases];
+		for (const alias of aliases)
+			GoatBot.aliases.delete(alias);
+	}
+	const setMap = folder == "cmds" ? "commands" : "eventCommands";
+	delete require.cache[require.resolve(pathCommand)];
+	GoatBot[setMap].delete(commandName);
+	log.master("UNLOADED", getLang("unloaded", commandName));
+	const commandUnload = configCommands[folder == "cmds" ? "commandUnload" : "commandEventUnload"] || [];
+	if (!commandUnload.includes(`${fileName}.js`))
+		commandUnload.push(`${fileName}.js`);
+	configCommands[folder == "cmds" ? "commandUnload" : "commandEventUnload"] = commandUnload;
+	fs.writeFileSync(global.client.dirConfigCommands, JSON.stringify(configCommands, null, 2));
+	return {
+		status: "success",
+		name: fileName
+	};
+}
+
+global.utils.loadScripts = loadScripts;
+global.utils.unloadScripts = unloadScripts;
