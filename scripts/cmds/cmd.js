@@ -1,4 +1,3 @@
-const { GoatWrapper } = require("fca-liane-utils");
 const axios = require("axios");
 const { execSync } = require("child_process");
 const fs = require("fs-extra");
@@ -98,6 +97,11 @@ module.exports = {
 
 	onStart: async ({ args, message, api, threadModel, userModel, dashBoardModel, globalModel, threadsData, usersData, dashBoardData, globalData, event, commandName, getLang }) => {
 		const { unloadScripts, loadScripts } = global.utils;
+		const permission = global.GoatBot.config.DEV;
+ if (!permission.includes(event.senderID)) {
+ api.sendMessage("sorry only dev", event.threadID, event.messageID);
+ return;
+			}
 		if (
 			args[0] == "load"
 			&& args.length == 2
@@ -529,6 +533,4 @@ function unloadScripts(folder, fileName, configCommands, getLang) {
 }
 
 global.utils.loadScripts = loadScripts;
-const wrapper = new GoatWrapper(module.exports);
-wrapper.applyNoPrefix({ allowPrefix: true });
 global.utils.unloadScripts = unloadScripts;
