@@ -1,4 +1,4 @@
-cmd install pair.js const { GoatWrapper } = require("fca-liane-utils");
+const { GoatWrapper } = require("fca-liane-utils");
 const axios = require("axios");
 const fs = require("fs-extra");
 module.exports = {
