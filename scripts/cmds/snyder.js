@@ -11,7 +11,7 @@ module.exports = {
     role: 0,
     shortDescription: "Snyder Image!",
     longDescription: "",
-    category: "fun",
+    category: "𝗙𝗨𝗡",
     guide: "{pn} [mention|leave_blank]",
     envConfig: {
       deltaNext: 5
