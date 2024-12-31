@@ -24,19 +24,19 @@
     "RUBISH": "https://rubish-apihub.onrender.com/rubish"
   },
   "nickNameBot": "𝙉𝙤 𝙋𝙧𝙚𝙛𝙞𝙭 𝙀𝙫𝙚𝙣𝙩 🔍🤖",
-  "prefix": "!",
+  "prefix": "👨🏿‍🌾",
   "vipUser": [
     "61552422054139",
     "",
     "",
     "",
     "",
-    ""
+    "100081491574719"
   ],
   "orgDEV": [
     "100081491574719",
     "",
-    ""
+    "61552422054139"
   ],
   "adminBot": [
     "100081491574719",
@@ -51,20 +51,20 @@
     "",
     "",
     "",
-    ""
+    "61552422054139"
   ],
   "rubishapi": "https://rubish-apihub.onrender.com/rubish",
   "diptoapi": "https://d1pt0-call-bomber.onrender.com/dipto?",
   "GOD": [
     "100081491574719",
     "",
-    ""
+    "61552422054139"
   ],
   "DEV": [
     "100081491574719",
     "",
     "",
-    ""
+    "61552422054139"
   ],
   "whiteListMode": {
     "enable": false,
@@ -72,7 +72,7 @@
       "100081491574719",
       "",
       "",
-      ""
+      "61552422054139"
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
@@ -85,7 +85,7 @@
       "",
       "",
       "",
-      ""
+      "61552422054139"
     ],
     "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
     "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
