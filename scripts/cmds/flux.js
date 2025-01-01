@@ -12,7 +12,7 @@ module.exports = {
     role: 0,
     shortDescription: "Generate an image based on a prompt using flux API created by Lance",
     longDescription: "generate image with flux API created by Lance ",
-    category: "AI",
+    category: "𝗜𝗠𝗔𝗚𝗘",
     guide: {
       en: "{pn} <prompt>"
     },
