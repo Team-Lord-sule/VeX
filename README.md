@@ -52,7 +52,7 @@
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
-- ➪ 𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 :- [𝘛𝘈𝘙𝘐𝘍 𝘉𝘳𝘰..](https://www.instagram.com/mr_bayjid120)
+- ➪ 𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 :- [𝘛𝘈𝘙𝘐𝘍 𝘉𝘳𝘰..](mr.tarif.yt.x130)
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
