@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/chK2RwF.jpeg" alt="banner">
+<img src="https://i.imgur.com/ik69NBx.jpeg" alt="banner">
 <h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> 𝘛𝘈𝘙𝘐𝘍 -𝘉𝘖𝘛 - 𝘔𝘙 𝘛𝘈𝘙𝘐𝘍 𝘠𝘛  𝘔𝘌𝘚𝘚𝘌𝘕𝘎𝘌𝘙 𝘊𝘏𝘈𝘛 𝘉𝘖𝘛</h1>
 <!-- Github README -->
 
