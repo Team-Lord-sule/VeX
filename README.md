@@ -14,7 +14,7 @@
 
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23F70B10&size=27&lines=𝙱☺︎︎𝚃+𝘖𝘞𝘕𝘌𝘙+𝘔𝘙+𝘛𝘈𝘙𝘐𝘍;+[!]•'Ꮇʀ✓ᵀᴬᴿᴵᶠ+✓𝙱☺︎︎𝚃+✓𝙭𝟏𝟑𝟎+𝘈+𝘕𝘈𝘔𝘌+𝘉𝘙𝘖;𝘐𝘛'𝘛+𝘕+𝘉𝘙𝘈𝘕𝘋;𝘛𝘏𝘈𝘕𝘒+𝘠𝘖𝘜+𝙴𝚅𝙴𝚁𝚈𝙾𝙽𝙴;𝘓𝘖𝘝𝘌+𝘜+𝘈𝘓𝘓+𝘍𝘙𝘐𝘌𝘕𝘋𝘚)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23F70B10&size=27&lines=𝙱☺︎︎𝚃+𝘖𝘞𝘕𝘌𝘙+𝘔𝘙+𝘛𝘈𝘙𝘐𝘍;+[!]•'Ꮇʀ✓ᵀᴬᴿᴵᶠ+✓𝙱☺︎︎𝚃+✓𝙭𝟏𝟑𝟎+𝘈+𝘕𝘈𝘔𝘌+𝘉𝘙𝘖;𝘉𝘖𝘛'𝘗𝘙𝘌𝘍𝘐𝘟+‣𒁍+[!];𝘛𝘏𝘈𝘕𝘒+𝘠𝘖𝘜+𝙴𝚅𝙴𝚁𝚈𝙾𝙽𝙴;𝘓𝘖𝘝𝘌+𝘜+𝘈𝘓𝘓+𝘍𝘙𝘐𝘌𝘕𝘋𝘚)](https://git.io/typing-svg)
 
 
 <h3><b><i>🏆 Github Statistics :</i></b></h3>
