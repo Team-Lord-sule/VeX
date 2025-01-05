@@ -18,7 +18,7 @@
 
 
 <h3><b><i>🏆 Github Statistics :</i></b></h3>
-<a href="https://github.com/BAYJID-404-BOYZ"><img width=550 src="https://github-profile-trophy.vercel.app/?username=𝘔𝘳 𝘛𝘢𝘳𝘪𝘧𝘶𝘭 𝘐𝘴𝘭𝘢𝘮 𝐁𝐀𝐘𝐉𝐈𝐃&theme=dracula&no-frame=true&title=Followers,Stars,Commit,Repository,Issues"/></a>
+<a href="https://github.com/Mr-Tarif-130"><img width=550 src="https://github-profile-trophy.vercel.app/?username=𝘔𝘳 𝘛𝘢𝘳𝘪𝘧𝘶𝘭 𝘐𝘴𝘭𝘢𝘮 &theme=dracula&no-frame=true&title=Followers,Stars,Commit,Repository,Issues"/></a>
 
 </p>
 <p align="center"> 
