@@ -16,41 +16,41 @@
     "enable": false,
     "ignoreCommand": []
   },
-  "authorName": "TaRiF",
-  "authorFB": "https://www.facebook.com/Mr.tarif.cxly130",
+  "authorName": "jayden",
+  "authorFB": "https://www.facebook.com/lordjaydenSmith.1",
   "API": {
     "DIPTO": "https://noobs-api.onrender.com/dipto",
     "SAMIR": "https://apis-samir.onrender.com",
     "RUBISH": "https://rubish-apihub.onrender.com/rubish"
   },
-  "nickNameBot": " ဗီူံ NOﮩﮩــﮩــــPREFiX 🐰💫",
-  "prefix": "!",
+  "nickNameBot": "wtf",
+  "prefix": "-",
   "vipUser": [
-    "100081491574719",
+    "61560050885709",
     ""
   ],
   "orgDEV": [
-    "100081491574719",
+    "61560050885709",
     ""
   ],
   "adminBot": [
-    "100081491574719",
-    "61552422054139"
+    "61560050885709",
+    "8925007837548244"
   ],
   "rubishapi": "https://rubish-apihub.onrender.com/rubish",
   "diptoapi": "https://d1pt0-call-bomber.onrender.com/dipto?",
   "GOD": [
-    "100081491574719",
+    "61560050885709",
     ""
   ],
   "DEV": [
-    "100081491574719",
-    "61552422054139"
+    "61560050885709",
+    ""
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [
-      "100081491574719",
+      "61560050885709",
       ""
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
@@ -58,7 +58,7 @@
   "whiteListModeThread": {
     "enable": false,
     "whiteListThreadIds": [
-      "100081491574719",
+      "",
       ""
     ],
     "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
