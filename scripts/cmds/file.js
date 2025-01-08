@@ -10,7 +10,7 @@ module.exports = {
     role: 2,
     shortDescription: "Send bot script",
     longDescription: "Send bot specified file ",
-    category: "𝗧𝗔𝗥𝗜𝗙",
+    category: "Bot admin",
     guide: "{pn} file name."
   },
 
