@@ -4,7 +4,10 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ TARIF ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
+const doNotDelete = "[ ‎|---|
+   / \
+  | o | 
+   \\/ ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
 
 module.exports = {
   config: {
@@ -19,7 +22,7 @@ module.exports = {
     longDescription: {
       en: "View command usage and list all commands directly",
     },
-    category: "𝗔𝗟𝗟 𝗖𝗠𝗗",
+    category: "Guide",
     guide: {
       en: "{pn} / help cmdName ",
     },
@@ -62,12 +65,11 @@ module.exports = {
 
       const totalCommands = commands.size;
       msg += `
-❏━━━━━━═━┈┈━═━━━━━❏\     Total Commands:  [ ${totalCommands} ]\n📬 all cmd ${prefix}Help ƚɾყρ\n`;
+❏━━━━━━═━┈┈━═━━━━━❏\     Total Commands:  [ ${totalCommands} ]\n📬 type ${prefix}Help cmd\n`;
       msg += ``;
-      msg += `\🛠️ Prefix: ! 
-👑 Owner: ♡ ɱʀ Tʌʀɩʆ ♡
-🎉 add my gc: !supportgc
-🔗 fb link: https://m.me/Mr.tarif.yt.x130
+      msg += `\system Prefix: - 
+👑 Owner: jayden smith
+🔗 fb link: https://m.me/lordjaydenSmith.1 
 ❏━━━━━━═━┈┈━═━━━━━❏`; // its not decoy so change it if you want 
 
 
