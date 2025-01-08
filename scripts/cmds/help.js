@@ -11,7 +11,7 @@ const doNotDelete = "[ ‎|---|
 
 module.exports = {
   config: {
-    name: "help",
+    name: "help3",
     version: "1.17",
     author: "ArYan",
     countDown: 5,
