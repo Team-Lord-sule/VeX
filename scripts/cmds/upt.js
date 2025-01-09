@@ -2,9 +2,9 @@ const { GoatWrapper } = require("fca-liane-utils");
 module.exports = {
   config: {
     name: "upt",
-aliases: ["uptim","up"],
+aliases: ["👉🙂👈","up"],
     version: "1.0",
-    author: "tarif",
+    author: "you",
     role: 0,
     shortDescription: {
       en: "Displays the total number of users of the bot and check uptime "
@@ -32,7 +32,7 @@ aliases: ["uptim","up"],
 ├─⌚:【ɱιɳιƚ=${minutes}】
 ├─⏳:【ʂҽƈσɳԃ=${seconds}】`;
       
-      api.sendMessage(`╭[ ! ]•Ꮇʀ✓ᵀᴬᴿᴵᶠ✓𝙱☺︎︎𝚃✓𝙭𝟏𝟑𝟎 ]  ─⦿
+      api.sendMessage(`╭[ 👈🍥👉 ]  ─⦿
 ├───【 𝑼𝑷𝑻𝑰𝑴𝑬】─────   ─⦿  
 ├───【𝙷𝙴𝙻𝙻𝙾 𝙴𝚅𝙴𝚁𝚈𝙾𝙽𝙴】─⦿
 ├────────────────  ─⦿\n├───────────────   ─⦿${uptimeString}\n├─👥:【Total Users= ${allUsers.length}】\n├─📬:【Total Threads= ${allThreads.length}】
